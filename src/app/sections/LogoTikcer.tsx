@@ -14,14 +14,6 @@ const LogoTikcer = () => {
             <Image className='logo-ticker-img' src='/logo-pulse.png' alt='logo' width={250} height={250} />
             <Image className='logo-ticker-img' src='/logo-apex.png' alt='logo' width={250} height={250} />
           </div>
-          <div className='flex gap-14 flex-none animate-marquee2 whitespace-nowrap absolute top-0 left-14'>
-            <Image className='logo-ticker-img' src='/logo-acme.png' alt='logo' width={250} height={250} />
-            <Image className='logo-ticker-img' src='/logo-quantum.png' alt='logo' width={250} height={250} />
-            <Image className='logo-ticker-img' src='/logo-echo.png' alt='logo' width={250} height={250} />
-            <Image className='logo-ticker-img' src='/logo-celestial.png' alt='logo' width={250} height={250} />
-            <Image className='logo-ticker-img' src='/logo-pulse.png' alt='logo' width={250} height={250} />
-            <Image className='logo-ticker-img' src='/logo-apex.png' alt='logo' width={250} height={250} />
-          </div>
         </div>
       </div>
     </div>

@@ -47,8 +47,20 @@ body {
     @apply text-black bg-transparent
   }
 
+  .btn-text img {
+    @apply transition-all duration-300
+  }
+
+  .btn-text:hover img {
+    @apply translate-x-[3px] transition-all duration-300
+  }
+
   .logo-ticker-img {
     @apply h-8 w-auto
+  }
+
+  .tag {
+    @apply text-sm inline-flex border border-[#222]/10 px-3 py-1 rounded-lg tracking-tight
   }
 }
 
