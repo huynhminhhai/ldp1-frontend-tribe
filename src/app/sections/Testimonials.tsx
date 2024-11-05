@@ -94,11 +94,11 @@ const Testimonials = () => {
           <p className="section-desc mt-5">
             From intuitive design to powerful features, our app has become an essential tool for users around the world
           </p>
-          <div className="flex justify-center gap-6">
-            <TestimonialsColumn testimonials={firstColumn} />
-            <TestimonialsColumn testimonials={secondColumn} classname="hidden md:flex" />
-            <TestimonialsColumn testimonials={thirdColumn} classname="hidden lg:flex" />
-          </div>
+        </div>
+        <div className="flex justify-center gap-6">
+          <TestimonialsColumn testimonials={firstColumn} />
+          <TestimonialsColumn testimonials={secondColumn} classname="hidden md:flex" />
+          <TestimonialsColumn testimonials={thirdColumn} classname="hidden lg:flex" />
         </div>
       </div>
     </section>

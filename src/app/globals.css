@@ -71,7 +71,7 @@ body {
     @apply text-center text-[22px] leading-[30px] tracking-tight text-[#010D3E]
   }
 
-  .seaction-heading {
+  .section-heading {
     @apply max-w-[560px] mx-auto
   }
 
