@@ -3,6 +3,7 @@ import Hero from "./sections/Hero";
 import LogoTikcer from "./sections/LogoTikcer";
 import Pricing from "./sections/Pricing";
 import ProductShowcase from "./sections/ProductShowcase";
+import Testimonials from "./sections/Testimonials";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <LogoTikcer />
       <ProductShowcase />
       <Pricing />
+      <Testimonials />
     </>
   );
 }

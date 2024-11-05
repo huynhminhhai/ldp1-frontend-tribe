@@ -74,11 +74,19 @@ body {
   .seaction-heading {
     @apply max-w-[560px] mx-auto
   }
+
+  .card {
+    @apply p-10 rounded-3xl shadow-[0_7px_14px_#EAEAEA] max-w-xs w-full border border-[#F1F1F1]
+  }
 }
 
 @layer utilities {
   .mask-gradient {
     mask-image: linear-gradient(to right, transparent, black, transparent);
+  }
+
+  .mask-gradient-vertical.mask-gradient-vertical {
+    mask-image: linear-gradient(to bottom, transparent, black, black, black, transparent);
   }
 
   .filter-brightness-invert {
