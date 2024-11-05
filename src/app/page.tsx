@@ -1,6 +1,7 @@
 import Header from "./sections/Header";
 import Hero from "./sections/Hero";
 import LogoTikcer from "./sections/LogoTikcer";
+import Pricing from "./sections/Pricing";
 import ProductShowcase from "./sections/ProductShowcase";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <LogoTikcer />
       <ProductShowcase />
+      <Pricing />
     </>
   );
 }
